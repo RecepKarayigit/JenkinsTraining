@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('Show the directory list') {
+      steps {
+        sh 'ls -la'
+      }
+    }
+
   }
 }
